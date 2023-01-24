@@ -11,7 +11,7 @@ const SearchedIngredients = () => {
   // populates an array of one list item per allergen to render 
   const allergenList = [];
   for (let i = 0; i < allergenArray.length; i++) {
-    allergenList.push(<li>{allergens[i]}</li>);
+    allergenList.push(<li>{allergenArray[i]}</li>);
   }
   // render all alergens in unordered list
   return <ul>{[allergenList]}</ul>;
