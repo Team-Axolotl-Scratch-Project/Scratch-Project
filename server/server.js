@@ -3,8 +3,8 @@ const path = require('path');
 const app = express();
 const transRoute = require('./routers/transferRouter.js')
 require('dotenv').config({ path: './.env' })
-const PORT = process.env.PORT
-// const PORT = 3000;
+// const PORT = process.env.PORT
+const PORT = 3000;
 
 // const searchRouter = require('./routes/searchRouter');
 
